@@ -1,0 +1,15 @@
+production:
+  password: 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
+  theme_id: "118028304562"
+  store: supermama-cicd-test.myshopify.com
+
+staging:
+  password: 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
+  theme_id: "118028337330"
+  store: supermama-cicd-test.myshopify.com
+
+development:
+  password: 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
+  theme_id: "118028370098"
+  store: supermama-cicd-test.myshopify.com
+
