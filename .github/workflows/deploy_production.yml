@@ -12,6 +12,6 @@ jobs:
       - name: Shopify
         uses: pgrimaud/action-shopify@master
         env:
-          SHOPIFY_PASSWORD: ${{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}}
-          SHOPIFY_STORE_URL: ${{supermama-cicd-test.myshopify.com}}
-          SHOPIFY_THEME_ID: ${{118028337330}}
+          SHOPIFY_PASSWORD: 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
+          SHOPIFY_STORE_URL: supermama-cicd-test.myshopify.com
+          SHOPIFY_THEME_ID: 118028337330
