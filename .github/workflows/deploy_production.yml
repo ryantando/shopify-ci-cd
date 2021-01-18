@@ -12,6 +12,6 @@ jobs:
       - name: Shopify
         uses: pgrimaud/action-shopify@master
         env:
-          SHOPIFY_PASSWORD: ${{ secret.SHOPIFY_PASSWORD }}
-          SHOPIFY_STORE_URL: ${{ secret.SHOPIFY_STORE }}
-          SHOPIFY_THEME_ID: ${{ secret.SHOPIFY_THEME_ID_PRODUCTION }}
+          SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}
+          SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID_PRODUCTION }}
